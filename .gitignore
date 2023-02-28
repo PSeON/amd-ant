@@ -1,0 +1,8 @@
+coverage
+node_modules
+
+amdant.es5.js
+amdant.es5.min.js
+
+amdant.es6.js
+amdant.es6.min.js
