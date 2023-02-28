@@ -1,6 +1,6 @@
 # amd-ant
 
-Tiny AMD.js loader, similar to requirejs but with basic functionality only.
+Tiny AMD.js loader (~2KB), similar to requirejs but with basic functionality only.
 
 It passes all anonymous and basic tests of [amdjs-tests](https://github.com/amdjs/amdjs-tests).
 
@@ -8,12 +8,12 @@ Test coverage is 100%.
 
 Four variants are available:
 
-| File name           | Description                                 |
-| ------------------- | ------------------------------------------- |
-| `amdant.es5.js`     | ES5 syntax for older browsers               |
-| `amdant.es5.min.js` | Optimized and minified version of the above |
-| `amdant.es6.js`     | ES6 syntax for modern browsers              |
-| `amdant.es6.min.js` | Optimized and minified version of the above |
+| File name           | Size (bytes) | Description                                 |
+| ------------------- | -----------: | ------------------------------------------- |
+| `amdant.es5.js`     |         8648 | ES5 syntax for older browsers               |
+| `amdant.es5.min.js` |         2351 | Optimized and minified version of the above |
+| `amdant.es6.js`     |         7984 | ES6 syntax for modern browsers              |
+| `amdant.es6.min.js` |         1861 | Optimized and minified version of the above |
 
 ## Example usage
 
